@@ -5,21 +5,20 @@ public class Main {
     public static void partida(String pal1, String pal2, int i) {
         if (pal1.equals(pal2)) {
             System.out.println("Caso #" + i + ": Denovo!");
-        }else {
+            return;
+        }
 
             boolean pwin =
-                            (pal1.equals("tesoura") && (pal2.equals("papel") || pal2.equals("lagarto"))) ||
-                            (pal1.equals("papel") && (pal2.equals("pedra") || pal2.equals("spock"))) ||
-                            (pal1.equals("pedra") && (pal2.equals("lagarto") || pal2.equals("tesoura"))) ||
-                            (pal1.equals("lagarto") && (pal2.equals("spock") || pal2.equals("papel"))) ||
-                            (pal1.equals("spock") && (pal2.equals("pedra") || pal2.equals("tesoura")));
-
+            (pal1.equals("pedra") && (pal2.equals("lagarto") || pal2.equals("tesoura"))) ||
+            (pal1.equals("papel") && (pal2.equals("pedra") || pal2.equals("spock"))) ||
+            (pal1.equals("tesoura") && (pal2.equals("papel") || pal2.equals("lagarto"))) ||
+            (pal1.equals("lagarto") && (pal2.equals("spock") || pal2.equals("papel"))) ||
+            (pal1.equals("spock") && (pal2.equals("tesoura") || pal2.equals("pedra")));
             if (pwin) {
                 System.out.println("Caso #" + i + ": Bazinga!");
             } else {
                 System.out.println("Caso #" + i + ": Raj trapaceou!");
             }
-        }
 
     }
 

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Lifecycle.iml" filepath="$PROJECT_DIR$/.idea/Lifecycle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lifeCycleOfProgram/lifeCycleOfProgram.iml" filepath="$PROJECT_DIR$/lifeCycleOfProgram/lifeCycleOfProgram.iml" />
+    </modules>
+  </component>
+</project>
