@@ -1,4 +1,22 @@
-import java.io.IOException;
+/*
+Carregamento refere-se ao processo de encontrar a forma binária de uma classe
+ou interface (ou seja, a classformato de arquivo) com um nome específico e
+construção de um Classobjeto dessa forma binária. A JVM usa um ClassLoader
+para encontrar a representação binária de Main- A . (í a questão: es. , , ,
+íntepeo. . E. . es. sobre a questão . (em, proprio, e O que é ClassLoaderclasse
+e suas subclasses implementam o processo de carregamento. O método defineClassÉ
+chamado a construir Classobjetos a partir da representação binária do formato de arquivo de classe.
+A JVM fornece dois tipos de carregadores de classe: um carregador de
+classe embutido chamado bootstrap class loader, que carrega as classes Java
+principais do rt.jararquivo; e o carregador de classe de extensão, que carrega
+classes a partir do extDiretório. Além disso, os carregadores de classe de
+aplicativos podem ser usados para carregar classes de outros locais, como o
+classpath ou um servidor remoto. Os últimos são subclasses personalizados de
+ClassLoaderque podem carregar classes através do java.lang.ClassPor exemplo.
+ */
+
+
+
 import java.io.InputStream;
 
 public class CustomClassLoader extends ClassLoader {
