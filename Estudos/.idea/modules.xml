@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Estudos.iml" filepath="$PROJECT_DIR$/.idea/Estudos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Basic java/arrayCopy/arrayCopy.iml" filepath="$PROJECT_DIR$/Basic java/arrayCopy/arrayCopy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Basic java/arrayCopy2/arrayCopy2.iml" filepath="$PROJECT_DIR$/Basic java/arrayCopy2/arrayCopy2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Basic java/arrayCopy3/arrayCopy3.iml" filepath="$PROJECT_DIR$/Basic java/arrayCopy3/arrayCopy3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lifecycle/lifeCycleOfProgram/lifeCycleOfProgram.iml" filepath="$PROJECT_DIR$/Lifecycle/lifeCycleOfProgram/lifeCycleOfProgram.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lifecycle/lifeCycleOfProgram1/lifeCycleOfProgram1.iml" filepath="$PROJECT_DIR$/Lifecycle/lifeCycleOfProgram1/lifeCycleOfProgram1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lifecycle/lifeCycleOfProgram2/lifeCycleOfProgram2.iml" filepath="$PROJECT_DIR$/Lifecycle/lifeCycleOfProgram2/lifeCycleOfProgram2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lifecycle/lifecycle3/lifecycle3.iml" filepath="$PROJECT_DIR$/Lifecycle/lifecycle3/lifecycle3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lifecycle/lifecycle4/lifecycle4.iml" filepath="$PROJECT_DIR$/Lifecycle/lifecycle4/lifecycle4.iml" />
+    </modules>
+  </component>
+</project>

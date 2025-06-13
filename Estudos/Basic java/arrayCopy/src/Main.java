@@ -8,6 +8,7 @@ public class Main {
         String[] copiaPalavra = new String[7];
 
         System.arraycopy(palavras, 2, copiaPalavra, 0, 7);
+
         for(String pal : copiaPalavra){
             System.out.println(pal + " ");
         }
