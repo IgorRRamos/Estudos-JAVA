@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Logica.iml" filepath="$PROJECT_DIR$/.idea/Logica.iml" />
+      <module fileurl="file://$PROJECT_DIR$/beecrowd-1435/beecrowd-1435.iml" filepath="$PROJECT_DIR$/beecrowd-1435/beecrowd-1435.iml" />
+      <module fileurl="file://$PROJECT_DIR$/beecrowd-1828/beecrowd-1828.iml" filepath="$PROJECT_DIR$/beecrowd-1828/beecrowd-1828.iml" />
+      <module fileurl="file://$PROJECT_DIR$/beecrowd-1837/beecrowd-1837.iml" filepath="$PROJECT_DIR$/beecrowd-1837/beecrowd-1837.iml" />
+      <module fileurl="file://$PROJECT_DIR$/beecrowd1002/beecrowd1002.iml" filepath="$PROJECT_DIR$/beecrowd1002/beecrowd1002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/beecrowd1789/beecrowd1789.iml" filepath="$PROJECT_DIR$/beecrowd1789/beecrowd1789.iml" />
+      <module fileurl="file://$PROJECT_DIR$/beecrowd-1435/somaDosPares/somaDosPares.iml" filepath="$PROJECT_DIR$/beecrowd-1435/somaDosPares/somaDosPares.iml" />
+    </modules>
+  </component>
+</project>
