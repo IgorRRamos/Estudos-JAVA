@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Lifecycle.iml" filepath="$PROJECT_DIR$/.idea/Lifecycle.iml" />
       <module fileurl="file://$PROJECT_DIR$/lifeCycleOfProgram/lifeCycleOfProgram.iml" filepath="$PROJECT_DIR$/lifeCycleOfProgram/lifeCycleOfProgram.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lifeCycleOfProgram1/lifeCycleOfProgram1.iml" filepath="$PROJECT_DIR$/lifeCycleOfProgram1/lifeCycleOfProgram1.iml" />
     </modules>
   </component>
 </project>
