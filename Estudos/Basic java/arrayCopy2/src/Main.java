@@ -6,8 +6,6 @@ public class Main {
         };
         String[] copiaPalavra = java.util.Arrays.copyOfRange(palavras, 1, 7);
 
-        for(String lista : copiaPalavra){
-            System.out.println(lista + " ");
-        }
+        java.util.Arrays.stream(copiaPalavra).map(lista -> lista + " ").forEach(System.out::println);
     }
 }
