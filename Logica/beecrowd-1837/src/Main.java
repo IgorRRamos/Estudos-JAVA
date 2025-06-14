@@ -6,14 +6,29 @@ public class Main {
 
         int a, b, q, r;
 
-        a = entrada.nextInt();
-        b = entrada.nextInt();
+        while(entrada.hasNextInt()) {
+            a = entrada.nextInt();
+            b = entrada.nextInt();
 
-        r = a % b;
-        q = a / b;
+            if (a > 0) {
+                r = a % b;
+                q = a / b;
+            } else {
+                int x = 0, y = 0;
 
-        System.out.printf("%d %d", q, r);
-
+                if (b < 0) {
+                    x = b * -1;
+                } else {
+                    x = b;
+                }
+                for (r = 0; r < x; r++) {
+                    y = a - r;
+                    if (y % b == 0) break;
+                }
+                q = y / b;
+            }
+            System.out.printf(q + " " + r);
+        }
 
         entrada.close();
     }
