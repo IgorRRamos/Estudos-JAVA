@@ -13,13 +13,12 @@ public class Main {
 
         Arrays.sort(num);
 
-        if(num[0] == num[1] && num[0] == num[2] || num[0] == num[2] && num[0] == num[3]){
+        boolean triangulo = (num[0] + num[1] == num[2]) ||
+         ( num[0] == num[1] && num[0] == num[2]);
+
+        if(triangulo){
             System.out.println("S");
-        } else if(num[0] + num[1] >= num[2] || num[0] + num[1] >= num[3]){
-            System.out.println("S");
-        }else if(num[0] + num[2] >= num[1] || num[0] + num[2] >= num[3]){
-            System.out.println("S");
-        }else{
+        } else{
             System.out.println("N");
         }
 
