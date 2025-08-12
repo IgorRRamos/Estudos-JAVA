@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Arquivos3/Arquivos3.iml" filepath="$PROJECT_DIR$/Arquivos3/Arquivos3.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Diversos.iml" filepath="$PROJECT_DIR$/.idea/Diversos.iml" />
       <module fileurl="file://$PROJECT_DIR$/arquivo/arquivo.iml" filepath="$PROJECT_DIR$/arquivo/arquivo.iml" />
       <module fileurl="file://$PROJECT_DIR$/arquivo2/arquivo2.iml" filepath="$PROJECT_DIR$/arquivo2/arquivo2.iml" />
