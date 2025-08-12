@@ -27,10 +27,10 @@ public class Main {
     }
 
     public static void tamanhoMinimo(String senha){
-        if(senha.length() > 7){
+        if(senha.length() > 7 && senha.length() < 12){
             System.out.println("Ok!");
         }else{
-            throw new RuntimeException("Minimum of 8 digits!");
+            throw new RuntimeException("Minimum of 8 digits!/Maximum 12 digits!");
         }
     }
 
