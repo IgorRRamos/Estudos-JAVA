@@ -1,20 +1,20 @@
 package org.example.Main;
-
-import clientes.Atualizar;
-import clientes.Cadastrar;
-import clientes.Consultar;
-
-import java.util.ArrayList;
+import clientes.GerenciarPessoa;
+import clientes.Pessoa;
 
 public class Main {
     public static void main(String[] args) {
+        Pessoa pes1 = new Pessoa("Igor", "28", "111");
 
-        Cadastrar cadastro = new Cadastrar();
+        GerenciarPessoa gerenciarPessoa = new GerenciarPessoa();
+        gerenciarPessoa.cadastrar("Igor", "28", "111");
+        gerenciarPessoa.cadastrar("Felipe", "25", "222");
+        gerenciarPessoa.cadastrar("Pabliss", "25", "333");
 
-        cadastro.cadastrarCliente("igor", 28, "12332112345", 10.000);
 
-        Consultar consulta = new Consultar();
-        consulta.searchPeople(cadastro, "12332112345");
+        gerenciarPessoa.consultar("111");
+        
+
 
     }
 }
