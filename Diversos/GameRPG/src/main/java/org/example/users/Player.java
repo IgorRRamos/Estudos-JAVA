@@ -1,20 +1,17 @@
 package org.example.users;
 
+import org.example.model.Combate;
+
 import java.util.Optional;
 
-public class Player extends Pessoa {
+public final class Player extends Combate {
     private String nickName;
     private String classe;
     private String arma;
-    private int nv;
 
-    public Player(String nome, int idade, String nick) {
-        super(nome, idade);
-        if (idade < 14) {
-            throw new IllegalArgumentException("O idade deve ser maior que 14");
-        }
+    public Player(String nick) {
+        super(100, 1);
         this.nickName = nick;
-        this.nv = 1;
     }
 
     public void escolherClasse(String decisao) {
@@ -26,6 +23,11 @@ public class Player extends Pessoa {
 
         this.classe = decisao.toUpperCase();
         System.out.println("\nClasse: " + getClasse() + " selecionada!");
+    }
+
+    @Override
+    public int atacar(){
+        return 10 * getNv();
     }
 
     public Optional<Boolean> escolherArma(int opcao) {
@@ -69,7 +71,8 @@ public class Player extends Pessoa {
                 "nickName='" + nickName + '\'' +
                 ", classe='" + classe + '\'' +
                 ", arma='" + arma + '\'' +
-                ", nv=" + nv +
+                ", nv=" + getNv() + '\'' +
+                ", vida=" + getVida() + '\'' +
                 '}';
     }
 
@@ -87,14 +90,6 @@ public class Player extends Pessoa {
 
     public void setClasse(String classe) {
         this.classe = classe;
-    }
-
-    public int getNv() {
-        return nv;
-    }
-
-    public void setNv(int nv) {
-        this.nv = nv;
     }
 
     public String getArma() {

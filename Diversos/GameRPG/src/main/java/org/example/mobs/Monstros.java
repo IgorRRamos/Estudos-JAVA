@@ -1,14 +1,36 @@
 package org.example.mobs;
 
-public class Monstros extends Model{
-    public String tipoMonstro;
-    
+import org.example.model.Combate;
 
-    public String getTipoMonstro() {
-        return tipoMonstro;
+public class Monstros extends Combate {
+    public static int contador = 1;
+    private int id;
+    public String nome;
+
+    public Monstros(String nome){
+        super(100, 2);
+        this.nome = nome;
+        id = contador++;
     }
 
-    public void setTipoMonstro(String tipoMonstro) {
-        this.tipoMonstro = tipoMonstro;
+    @Override
+    public int atacar() {
+        return 10 * getNv();
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
     }
 }
